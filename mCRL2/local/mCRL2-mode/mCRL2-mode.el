@@ -6,10 +6,15 @@
         ("hide\\|comm\\|allow" . font-lock-keyword-face)))
 
 
+(setq mCRL2-mode-syntax-table
+      (let ( (synTable (make-syntax-table)))
+        (modify-syntax-entry ?% "<" synTable)
+        (modify-syntax-entry ?\n ">" synTable)
+        synTable))
+
 (define-derived-mode mCRL2-mode fundamental-mode "mCRL2"
   "mCRL2 Major Mode"
 
-  (setq comment-start "% ")
   (setq font-lock-defaults '(mCRL2-highlight-scheme))
   (setq-local comment-start "\%")
   (setq-local comment-end "")
