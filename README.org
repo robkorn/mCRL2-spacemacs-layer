@@ -17,8 +17,8 @@ Key Bindings and Commands
 | <kbd>SPC b b</kbd> | Create a Parameterized Boolean Equation System using a previously created LTS and a modal formula found at project location "properties/testProp.mcf".
 | <kbd>SPC c</kbd> | Model Check using PBESolve on your created PBES and LTS.
 | <kbd>SPC s</kbd> | Open LPSXSim trace simulator using previously created LPS.
-| <kbd>SPC g c</kbd> | Open LTSGraph with previously created LTS.
-| <kbd>SPC g e</kbd> | Open LTSGraph with evidence created from Model Checking via PBESolve.
+| <kbd>SPC g</kbd> | Open LTSGraph with previously created LTS.
+| <kbd>SPC e</kbd> | Open LTSGraph with evidence created from Model Checking via PBESolve.
 
 
 
