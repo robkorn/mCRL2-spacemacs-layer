@@ -60,7 +60,7 @@
     (async-shell-command (concat "lps2pbes -c " (concat buffer-file-name ".lps" ) " -f properties/testProp.mcf " (concat buffer-file-name ".pbes") )))
   (defun mcrl2-create-pbes-lts (&optional set-line)
     (interactive)
-    (async-shell-command (concat "lts2pbes -c " (concat buffer-file-name ".lps" ) " -f properties/testProp.mcf " (concat buffer-file-name ".pbes") )))
+    (async-shell-command (concat "lts2pbes -c " (concat buffer-file-name ".lts" ) " -f properties/testProp.mcf " (concat buffer-file-name ".pbes") )))
 
   ;; PBES Model Chekcing Functions
   (defun mcrl2-check-pbes-lps (&optional set-line)
