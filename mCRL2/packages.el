@@ -13,11 +13,11 @@
 
     "bt" 'mcrl2-create-lts
     "bb" 'mcrl2-create-pbes-lts
-    "c" 'mcrl2-check-pbes-lts
+    "c"  'mcrl2-check-pbes-lts
 
     "g" 'mcrl2-lts-graph-current
     "e" 'mcrl2-lts-graph-evidence
-    "s"  'mcrl2-lps-trace-simulator
+    "s" 'mcrl2-lps-trace-simulator
     )
   )
 
@@ -27,7 +27,7 @@
   (use-package mCRL2-mode
     :defer t
     :mode "\\.mcrl2\\'"
-    )
+  )
 
   (spacemacs/declare-prefix-for-mode 'mCRL2-mode "mb" "mCRL2/Build Files")
   (spacemacs/declare-prefix-for-mode 'mCRL2-mode "mbl" "Linear Process Spec")
